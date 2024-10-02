@@ -1,0 +1,64 @@
+# Ignore arquivos de build
+bin/
+obj/
+
+# Ignore o diretório do Visual Studio
+.vs/
+
+# Ignore pacotes NuGet instalados
+packages/
+
+# Ignore configurações de usuário do Visual Studio
+*.user
+*.suo
+
+# Ignore o diretório de publicação de sites
+publish/
+
+# Ignore logs
+*.log
+
+# Ignore arquivos temporários
+[Tt]emp/
+
+# Ignore arquivos de cache do Rider
+.idea/
+
+# Ignore arquivos gerados pelo Test Explorer
+TestResults/
+
+# Ignore arquivos de backup
+*.bak
+*.swp
+
+# Ignore arquivos gerados pela ferramenta de análise do Visual Studio
+*.vsp
+*.vspx
+*.coverage
+*.coveragexml
+
+# Ignore arquivos de projeto gerados automaticamente
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Ignore dependências de biblioteca geradas pelo .NET
+*.dll
+*.exe
+*.pdb
+
+# Ignore arquivos de pacote
+*.nupkg
+*.snupkg
+
+# Ignore pacotes de log do Visual Studio
+*.ilk
+*.obj
+*.cache
+*.pdb
+
+# Ignore arquivos de sistema específicos (Windows e macOS)
+[Dd]esktop.ini
+[Tt]humbs.db
+*.DS_Store
+.vs
